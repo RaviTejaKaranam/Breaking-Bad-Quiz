@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breaking Bad Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- initial instruction  -->
+    <div class="instructions">
+      <div class="instructions-heading">
+        <h3>Instructions</h3>
+        <i class="fas fa-times" id="start-quiz"></i>
+      </div>
+      <p>
+        Hi, Welcome to the "Breaking Bad" Character guessing game, A blurred image 
+        of a Breaking Bad character will be displayed on the screen, use the key
+        board keys to guess the alphabets in the character's name and finish the
+        puzzle within the given amount of time and chances. As the number of correct 
+        alphabet guesses increases the image becomes clearer.
+      </p>
+    </div>
+    <h1 class="heading">Guess the Character</h1>
+    <div class="outer-container">
+      <div class="container">
+        <div class="timer">
+          <p>Time Left:</p>
+        </div>
+        <div class="image-container">
+          <img
+            src="https://www.jqueryscript.net/images/jQuery-Ajax-Loading-Overlay-with-Loading-Text-Spinner-Plugin.jpg"
+            alt=""
+          />
+        </div>
+        <div class="chance-count">
+          <p>Number of guesses left:</p>
+        </div>
+      </div>
+      <div class="word-container"></div>
+      <div class="btn-div">
+        <button class="btn">New Puzzle</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
