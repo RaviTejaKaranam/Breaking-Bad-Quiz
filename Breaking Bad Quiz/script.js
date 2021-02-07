@@ -55,6 +55,7 @@ button.addEventListener("click", () => {
   clearInterval(interval);
   count = 0;
   wrongGuesses = [];
+  image.src = "https://www.jqueryscript.net/images/jQuery-Ajax-Loading-Overlay-with-Loading-Text-Spinner-Plugin.jpg";
   messageDiv.innerHTML = "";
   numberOfChances.classList.add("chances");
   numberOfChances.innerHTML = numberOfGuesses;
